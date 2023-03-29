@@ -7,6 +7,7 @@ import os
 SECRET = os.getenv("SECRET")
 
 #
+print("ddddddddddd")
 app = FastAPI()
 
 class Msg(BaseModel):
